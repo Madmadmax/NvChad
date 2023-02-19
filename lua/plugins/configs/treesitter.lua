@@ -9,6 +9,10 @@ require("base46").load_highlight "treesitter"
 local options = {
   ensure_installed = {
     "lua",
+    "python",
+    "javascript",
+    "html",
+    "css",
   },
 
   highlight = {
