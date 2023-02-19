@@ -191,6 +191,8 @@ local plugins = {
     end,
   },
 
+  ["wakatime/vim-wakatime"] = {},
+
   -- Only load whichkey after all the gui
   ["folke/which-key.nvim"] = {
     disable = true,
