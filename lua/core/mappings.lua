@@ -299,21 +299,21 @@ M.nvterm = {
 
   t = {
     -- toggle in terminal mode
-    ["<A-i>"] = {
+    ["<leader>ti"] = {
       function()
         require("nvterm.terminal").toggle "float"
       end,
       "toggle floating term",
     },
 
-    ["<A-h>"] = {
+    ["<leader>tb"] = {
       function()
         require("nvterm.terminal").toggle "horizontal"
       end,
       "toggle horizontal term",
     },
 
-    ["<A-v>"] = {
+    ["<leader>tr"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
@@ -323,21 +323,21 @@ M.nvterm = {
 
   n = {
     -- toggle in normal mode
-    ["<A-i>"] = {
+    ["<leader>ti"] = {
       function()
         require("nvterm.terminal").toggle "float"
       end,
       "toggle floating term",
     },
 
-    ["<A-h>"] = {
+    ["<leader>tb"] = {
       function()
         require("nvterm.terminal").toggle "horizontal"
       end,
       "toggle horizontal term",
     },
 
-    ["<A-v>"] = {
+    ["<leader>tr"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
