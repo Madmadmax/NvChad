@@ -69,4 +69,14 @@ lspconfig.pyright.setup {
   capabilities = M.capabilities,
 }
 
+lspconfig.tsserver.setup {
+  on_attach = M.on_attach,
+  capabilities = M.capabilities,
+}
+
+lspconfig.clangd.setup {
+  on_attach = M.on_attach,
+  capabilities = M.capabilities,
+}
+
 return M

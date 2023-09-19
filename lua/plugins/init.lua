@@ -193,6 +193,13 @@ local plugins = {
 
   ["wakatime/vim-wakatime"] = {},
 
+  ["stevearc/aerial.nvim"] = {
+    module = 'aerial',
+    config = function()
+      require "plugins.configs.aerial"
+    end
+  },
+
   -- Only load whichkey after all the gui
   ["folke/which-key.nvim"] = {
     disable = true,

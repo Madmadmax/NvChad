@@ -130,6 +130,16 @@ M.comment = {
   },
 }
 
+M.aerial = {
+  plugin = true,
+
+  n = {
+    ["{"] = {"<cmd>AerialPrev<CR>", "aerial prev"},
+    ["}"] = {"<cmd>AerialNext<CR>", "auerial next"},
+    ["<leader>a"] = {"<cmd>AerialToggle!<CR>", "aerial toggle"},
+  },
+}
+
 M.lspconfig = {
   plugin = true,
 
